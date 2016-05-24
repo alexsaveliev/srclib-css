@@ -5,7 +5,7 @@ default: govendor install
 install: .bin/srclib-css
 
 clean:
-	rm .bin/srclib-css
+	rm -f .bin/srclib-css
 
 govendor:
 	go get github.com/kardianos/govendor
